@@ -14,6 +14,11 @@ from pyod.models.iforest import IForest
 from pyod.models.rgraph import RGraph
 from pyod.models.lunar import LUNAR
 from pyod.models.dif import DIF
+from pyod.models.vae import VAE
+from pyod.models.alad import ALAD
+
+
+from utils import prepare_data, get_variable_encoding_map
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -31,6 +36,8 @@ MODELS = {
     "DIF": {"type": "Outlier Ensembles", "model_factory": lambda: DIF(device="cpu")},
     #"AutoEncoder": {"type": "Neural Networks", "model_factory": lambda: AutoEncoder(device="cpu")},
     #"DevNet": {"type": "Neural Networks", "model_factory": lambda: DevNet(device="cpu")},
+    "VAE": {"type": "Neural Networks", "model_factory": lambda: VAE(device="cpu", verbose=0)},
+    "ALAD": {"type": "Neural Networks", "model_factory": lambda: ALAD(device="cpu", verbose=0)},
     "R-Graph": {"type": "Graph-based", "model_factory": lambda: RGraph()},
     "LUNAR": {"type": "Graph-based", "model_factory": lambda: LUNAR()},
 }
@@ -38,60 +45,10 @@ MODELS = {
 
 DATA_FILEPATH = 'data/a_estabel_sample.csv'
 DTYPE_FILEPATH = 'data/estabel_dtypes.json'
+VARIABLE_MAP_FILEPATH = 'data/variable_map.json'
 
 
-def prepare_data(df):
-
-    # df = 228 features
-    # df_num = 77 features
-    # df_cat = 151 features
-    # df_tranformed = 346 features
-
-    # Calculando o quantidade de valores nulos por coluna
-    null_percentage = df.isnull().sum() / len(df) * 100
-    null_percentage = null_percentage.sort_values(ascending=False)
-    null_percentage = null_percentage.to_frame()
-    null_percentage.columns = ['null_percentage']
-
-    cols_to_use = null_percentage[null_percentage['null_percentage'] < 60].index.to_list()
-
-    # Selecionando as colunas válidas (menos de 60% de nulos)
-    df = df[cols_to_use].reset_index(drop=True)
-
-    # Identifica tipos de variáveis
-    numeric_features = list(df.select_dtypes(include=[np.number]).columns)
-    categorical_features = list(df.select_dtypes(include=['object', 'category']).columns)
-
-    # Separa os dados categóricos e converte para int 
-    # #TODO: avaliar cada feature categorica e escolher o melhor encoding
-    categorical_data = df[categorical_features]
-    
-    # label encoding
-    # categorical_data = categorical_data.apply(LabelEncoder().fit_transform) # cuidado, pode introduzir ordem onde não existe
-
-    #one-hot encoding
-    categorical_data = pd.get_dummies(categorical_data, drop_first=True)
-    
-    categorical_data.fillna(-1, inplace=True)
-
-    numerical_data = df[numeric_features]
-    numerical_data.fillna(-1, inplace=True)
-
-    # Faz o scale das colunas numéricas
-    scaler = MinMaxScaler()
-    X_scaled = scaler.fit_transform(numerical_data)
-
-    # Concatena as colunas númericas aos dados categóricos após encoding
-    X_scaled = np.concatenate((X_scaled, categorical_data.to_numpy()), axis=1)
-
-    feature_names_transformed = scaler.get_feature_names_out().tolist() + categorical_data.columns.tolist()
-
-    return X_scaled, feature_names_transformed, numeric_features, categorical_features
-
-
-def main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath):
-
-    model = MODELS[model_name]
+def main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map_filepath):
 
     dtypes = json.load(open(dtype_filepath))
     df = pd.read_csv(data_filepath, dtype=dtypes)
@@ -108,14 +65,27 @@ def main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath):
     # Removendo valores de identificadores únicos da base
     df.drop(['V010100', 'NUM_QUADRA', 'NUM_FACE', 'V010800'], axis=1, inplace=True)
 
-    X, feature_names, num_features, cat_features = prepare_data(df)
+    variable_map = json.load(open(variable_map_filepath))
 
-    n_samples = int(X.shape[0] * dataset_ratio),
+    # Transformando o dicionário em DataFrame, excluindo as chaves especificadas
+    variable_map_df = pd.DataFrame.from_dict(variable_map, orient='index')
+    variable_map_df = variable_map_df.drop(columns=['condition', 'reference'])
+
+    categorical_variables_map = get_variable_encoding_map(df, variable_map_df)
+    numerical_variables_map = {
+        'variables': list(df.select_dtypes(include=[np.number]).columns),
+        'encoding': "minmax",
+        'missing_treatment': "zero"
+    }
+
+    X, feature_names, num_features, cat_features = prepare_data(df, numerical_variables_map, categorical_variables_map, variable_map)
+
+    n_samples = int(X.shape[0] * dataset_ratio)
 
     X_sample = X[np.random.RandomState(seed).choice(X.shape[0], n_samples, replace=False)]
 
+    model = MODELS[model_name]
     model_instance = model["model_factory"]()
-
     model_instance.fit(X_sample)
 
 
@@ -129,6 +99,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=42, help='Semente para seleção aleatória de amostra do dataset')
     parser.add_argument('--data_filepath', type=str, default=DATA_FILEPATH, help='Caminho para o arquivo CSV dos dados')
     parser.add_argument('--dtype_filepath', type=str, default=DTYPE_FILEPATH, help='Caminho para o arquivo JSON dos tipos de dados')
+    parser.add_argument('--variable_map_filepath', type=str, default=VARIABLE_MAP_FILEPATH, help='Caminho para o arquivo JSON do mapeamento de variáveis')
     args = parser.parse_args()
 
     model_name = args.model
@@ -136,5 +107,6 @@ if __name__ == '__main__':
     seed = args.seed
     data_filepath = args.data_filepath
     dtype_filepath = args.dtype_filepath
+    variable_map = args.variable_map_filepath
 
-    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath)
+    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)

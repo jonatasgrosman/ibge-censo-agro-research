@@ -1,0 +1,2162 @@
+[
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 41.00756597518921,
+        "peak_memory_in_mb": 11818.359375,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 42.3075532913208,
+        "peak_memory_in_mb": 12023.90625,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 58.58310604095459,
+        "peak_memory_in_mb": 11799.152344,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 131.50819969177246,
+        "peak_memory_in_mb": 16944.679688,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 223.70709037780762,
+        "peak_memory_in_mb": 26646.929688,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 42.60906982421875,
+        "peak_memory_in_mb": 11792.332031,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 42.51140332221985,
+        "peak_memory_in_mb": 11799.933594,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 58.38190579414368,
+        "peak_memory_in_mb": 11799.539062,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 132.01713633537292,
+        "peak_memory_in_mb": 16878.171875,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 223.10573601722717,
+        "peak_memory_in_mb": 26708.984375,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 42.60684037208557,
+        "peak_memory_in_mb": 11818.351562,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 42.51382541656494,
+        "peak_memory_in_mb": 11814.375,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 58.47710609436035,
+        "peak_memory_in_mb": 11810.621094,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 131.3023557662964,
+        "peak_memory_in_mb": 16785.546875,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 223.79841542243958,
+        "peak_memory_in_mb": 26675.914062,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 40.522865533828735,
+        "peak_memory_in_mb": 11812.1875,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 40.60194134712219,
+        "peak_memory_in_mb": 11810.304688,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 41.91610264778137,
+        "peak_memory_in_mb": 11819.914062,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 48.46763491630554,
+        "peak_memory_in_mb": 16027.238281,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 61.96338963508606,
+        "peak_memory_in_mb": 25497.285156,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 40.296833515167236,
+        "peak_memory_in_mb": 11810.785156,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 40.300485372543335,
+        "peak_memory_in_mb": 11803.472656,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 42.42399501800537,
+        "peak_memory_in_mb": 11812.496094,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 53.11317586898804,
+        "peak_memory_in_mb": 16270.855469,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 62.67002606391907,
+        "peak_memory_in_mb": 25534.109375,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 40.797755002975464,
+        "peak_memory_in_mb": 11807.210938,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 40.30550813674927,
+        "peak_memory_in_mb": 11807.984375,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 42.0150089263916,
+        "peak_memory_in_mb": 11825.234375,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 49.28723931312561,
+        "peak_memory_in_mb": 16234.847656,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 57.83917498588562,
+        "peak_memory_in_mb": 25482.945312,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 40.002612352371216,
+        "peak_memory_in_mb": 11808.417969,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 39.99752354621887,
+        "peak_memory_in_mb": 11813.125,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 45.11926865577698,
+        "peak_memory_in_mb": 11813.363281,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 74.22707176208496,
+        "peak_memory_in_mb": 23978.6875,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 120.4680769443512,
+        "peak_memory_in_mb": 40962.109375,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 39.896756172180176,
+        "peak_memory_in_mb": 11815.359375,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 39.80626392364502,
+        "peak_memory_in_mb": 12034.699219,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 45.02654433250427,
+        "peak_memory_in_mb": 11812.480469,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 74.54113388061523,
+        "peak_memory_in_mb": 23980.847656,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 120.969407081604,
+        "peak_memory_in_mb": 40980.570312,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 39.691827058792114,
+        "peak_memory_in_mb": 11814.136719,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 40.29662585258484,
+        "peak_memory_in_mb": 11815.464844,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 45.123082399368286,
+        "peak_memory_in_mb": 11809.65625,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 74.32653260231018,
+        "peak_memory_in_mb": 23980.707031,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 120.88304114341736,
+        "peak_memory_in_mb": 40960.660156,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 45.820595026016235,
+        "peak_memory_in_mb": 11808.8125,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 104.33097958564758,
+        "peak_memory_in_mb": 11818.316406,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 386.7888219356537,
+        "peak_memory_in_mb": 18629.683594,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 755.9238510131836,
+        "peak_memory_in_mb": 29884.488281,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 41.405004262924194,
+        "peak_memory_in_mb": 12035.78125,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 46.01994228363037,
+        "peak_memory_in_mb": 11806.917969,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 106.63740086555481,
+        "peak_memory_in_mb": 11815.148438,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 390.6799347400665,
+        "peak_memory_in_mb": 18405.953125,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 762.7989513874054,
+        "peak_memory_in_mb": 30003.601562,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 41.220468282699585,
+        "peak_memory_in_mb": 11819.320312,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 46.828962326049805,
+        "peak_memory_in_mb": 11809.042969,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 107.64972949028015,
+        "peak_memory_in_mb": 11819.066406,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 390.3938248157501,
+        "peak_memory_in_mb": 18384.722656,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 770.9459836483002,
+        "peak_memory_in_mb": 29866.695312,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 41.009400367736816,
+        "peak_memory_in_mb": 11812.265625,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 40.99404215812683,
+        "peak_memory_in_mb": 11812.921875,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 45.92036533355713,
+        "peak_memory_in_mb": 11818.058594,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 74.54017400741577,
+        "peak_memory_in_mb": 23995.152344,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 120.66367769241333,
+        "peak_memory_in_mb": 40986.816406,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 40.506781339645386,
+        "peak_memory_in_mb": 11819.894531,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 40.29248332977295,
+        "peak_memory_in_mb": 11799.03125,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 45.42869424819946,
+        "peak_memory_in_mb": 11816.652344,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 74.93259859085083,
+        "peak_memory_in_mb": 23990.136719,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 121.17227149009705,
+        "peak_memory_in_mb": 40966.578125,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 40.10483694076538,
+        "peak_memory_in_mb": 11810.566406,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 40.50754189491272,
+        "peak_memory_in_mb": 11812.585938,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 45.117292404174805,
+        "peak_memory_in_mb": 11802.644531,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 74.32760763168335,
+        "peak_memory_in_mb": 23989.21875,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 120.76566171646118,
+        "peak_memory_in_mb": 40966.414062,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 41.206984758377075,
+        "peak_memory_in_mb": 11803.707031,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 41.00572872161865,
+        "peak_memory_in_mb": 11830.40625,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 42.42126727104187,
+        "peak_memory_in_mb": 11809.441406,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 50.638643741607666,
+        "peak_memory_in_mb": 11827.148438,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 63.58522653579712,
+        "peak_memory_in_mb": 16693.816406,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 41.305169343948364,
+        "peak_memory_in_mb": 11801.054688,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 41.20424151420593,
+        "peak_memory_in_mb": 11802.957031,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 41.996439695358276,
+        "peak_memory_in_mb": 12029.996094,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 50.85209798812866,
+        "peak_memory_in_mb": 11827.496094,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 63.88260364532471,
+        "peak_memory_in_mb": 16703.988281,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 41.11083245277405,
+        "peak_memory_in_mb": 11812.515625,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 41.20277786254883,
+        "peak_memory_in_mb": 12040.949219,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 42.40611410140991,
+        "peak_memory_in_mb": 11827.785156,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 50.94102478027344,
+        "peak_memory_in_mb": 11836.046875,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 63.884246587753296,
+        "peak_memory_in_mb": 16682.289062,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 39.60401368141174,
+        "peak_memory_in_mb": 12040.566406,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 40.30119013786316,
+        "peak_memory_in_mb": 11824.527344,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 41.005990982055664,
+        "peak_memory_in_mb": 11801.121094,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 44.03075194358826,
+        "peak_memory_in_mb": 11817.675781,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 48.23870348930359,
+        "peak_memory_in_mb": 14230.953125,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 39.603272438049316,
+        "peak_memory_in_mb": 11823.421875,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 39.90180683135986,
+        "peak_memory_in_mb": 12037.285156,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 40.506879568099976,
+        "peak_memory_in_mb": 11806.566406,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 44.02352738380432,
+        "peak_memory_in_mb": 11795.628906,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 48.33721399307251,
+        "peak_memory_in_mb": 14246.25,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 39.79584884643555,
+        "peak_memory_in_mb": 11814.328125,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 39.69709897041321,
+        "peak_memory_in_mb": 11823.667969,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 40.70828080177307,
+        "peak_memory_in_mb": 11811.023438,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 44.21703100204468,
+        "peak_memory_in_mb": 11802.917969,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 47.93695068359375,
+        "peak_memory_in_mb": 14233.460938,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 40.71041393280029,
+        "peak_memory_in_mb": 11811.820312,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 49.30884504318237,
+        "peak_memory_in_mb": 11817.554688,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 41.81141996383667,
+        "peak_memory_in_mb": 11815.761719,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 95.19247078895569,
+        "peak_memory_in_mb": 55556.964844,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 43.30118703842163,
+        "peak_memory_in_mb": 14240.386719,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 466. GiB for an array with shape (250000, 250000) and data type float64\n"
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 42.91513395309448,
+        "peak_memory_in_mb": 21511.574219,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.82 TiB for an array with shape (500000, 500000) and data type float64\n"
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 40.10408973693848,
+        "peak_memory_in_mb": 12038.796875,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 49.336119413375854,
+        "peak_memory_in_mb": 11806.128906,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 94.89386558532715,
+        "peak_memory_in_mb": 55602.53125,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 43.27412414550781,
+        "peak_memory_in_mb": 14235.488281,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 466. GiB for an array with shape (250000, 250000) and data type float64\n"
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 42.51231241226196,
+        "peak_memory_in_mb": 21530.886719,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.82 TiB for an array with shape (500000, 500000) and data type float64\n"
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 40.407228231430054,
+        "peak_memory_in_mb": 11805.863281,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 48.03385663032532,
+        "peak_memory_in_mb": 12042.042969,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 95.08459424972534,
+        "peak_memory_in_mb": 55549.117188,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 43.286890506744385,
+        "peak_memory_in_mb": 14233.421875,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 466. GiB for an array with shape (250000, 250000) and data type float64\n"
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 42.61240816116333,
+        "peak_memory_in_mb": 21518.152344,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.82 TiB for an array with shape (500000, 500000) and data type float64\n"
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 41.22265338897705,
+        "peak_memory_in_mb": 11797.792969,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 43.00697612762451,
+        "peak_memory_in_mb": 11818.675781,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 177.38433480262756,
+        "peak_memory_in_mb": 11819.867188,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 1800.100928068161,
+        "peak_memory_in_mb": 18234.335938,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=LUNAR --dataset_ratio=0.5                 --seed=2 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 1800.1092627048492,
+        "peak_memory_in_mb": 29990.1875,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=LUNAR --dataset_ratio=1                 --seed=2 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 182.26554083824158,
+        "peak_memory_in_mb": 12032.183594,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 144.97629857063293,
+        "peak_memory_in_mb": 11819.476562,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 422.81878423690796,
+        "peak_memory_in_mb": 11827.710938,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 1800.104572057724,
+        "peak_memory_in_mb": 18654.832031,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=LUNAR --dataset_ratio=0.5                 --seed=3 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 1800.1015486717224,
+        "peak_memory_in_mb": 30110.503906,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=LUNAR --dataset_ratio=1                 --seed=3 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 112.63347840309143,
+        "peak_memory_in_mb": 11804.632812,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 117.36260318756104,
+        "peak_memory_in_mb": 11802.253906,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 429.3989095687866,
+        "peak_memory_in_mb": 11803.8125,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 1800.1044812202454,
+        "peak_memory_in_mb": 18537.761719,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=LUNAR --dataset_ratio=0.5                 --seed=5 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 78.18090748786926,
+        "peak_memory_in_mb": 11814.597656,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 77.27328944206238,
+        "peak_memory_in_mb": 11809.429688,
+        "output_msg": ""
+    },
+    {
+        "model": "ALAD",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 77.16853451728821,
+        "peak_memory_in_mb": 12031.246094,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 45.141095876693726,
+        "peak_memory_in_mb": 11821.628906,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 44.940670013427734,
+        "peak_memory_in_mb": 11827.777344,
+        "output_msg": ""
+    },
+    {
+        "model": "CBLOF",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 44.534083127975464,
+        "peak_memory_in_mb": 11804.089844,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 51.54436683654785,
+        "peak_memory_in_mb": 13783.171875,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 50.94006061553955,
+        "peak_memory_in_mb": 13776.296875,
+        "output_msg": ""
+    },
+    {
+        "model": "COPOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 51.653430700302124,
+        "peak_memory_in_mb": 13769.585938,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 172.0759723186493,
+        "peak_memory_in_mb": 12031.746094,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 171.30736637115479,
+        "peak_memory_in_mb": 11843.355469,
+        "output_msg": ""
+    },
+    {
+        "model": "DIF",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 176.71205306053162,
+        "peak_memory_in_mb": 11804.265625,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 51.64985990524292,
+        "peak_memory_in_mb": 14039.472656,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 51.44664812088013,
+        "peak_memory_in_mb": 13769.640625,
+        "output_msg": ""
+    },
+    {
+        "model": "ECOD",
+        "type": "Probabilistic",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 51.54565787315369,
+        "peak_memory_in_mb": 13769.105469,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 44.01775646209717,
+        "peak_memory_in_mb": 11799.1875,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 44.12423753738403,
+        "peak_memory_in_mb": 11811.503906,
+        "output_msg": ""
+    },
+    {
+        "model": "HBOS",
+        "type": "Proximity-Based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 43.71589708328247,
+        "peak_memory_in_mb": 11813.324219,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 41.72014570236206,
+        "peak_memory_in_mb": 11818.785156,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 41.517894983291626,
+        "peak_memory_in_mb": 11822.984375,
+        "output_msg": ""
+    },
+    {
+        "model": "IForest",
+        "type": "Outlier Ensembles",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 41.91069841384888,
+        "peak_memory_in_mb": 11810.984375,
+        "output_msg": ""
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 40.40063405036926,
+        "peak_memory_in_mb": 12035.335938,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 74.5 GiB for an array with shape (100000, 100000) and data type float64\n"
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 40.50545358657837,
+        "peak_memory_in_mb": 11814.5625,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 74.5 GiB for an array with shape (100000, 100000) and data type float64\n"
+    },
+    {
+        "model": "KPCA",
+        "type": "Linear",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 40.5038743019104,
+        "peak_memory_in_mb": 11807.375,
+        "output_msg": "Traceback (most recent call last):\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"/home/jonatas/.pyenv/versions/3.10.13/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1351, in <module>\n    exec_with_profiler(script_filename, prof, args.backend, script_args)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/memory_profiler.py\", line 1252, in exec_with_profiler\n    exec(compile(f.read(), filename, 'exec'), ns, ns)\n  File \"check_recursos.py\", line 112, in <module>\n    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)\n  File \"check_recursos.py\", line 89, in main\n    model_instance.fit(X_sample)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/pyod/models/kpca.py\", line 333, in fit\n    x_transformed = self.kpca.fit_transform(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py\", line 316, in wrapped\n    data_to_wrap = f(self, X, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 476, in fit_transform\n    self.fit(X, **params)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 441, in fit\n    K = self._get_kernel(X)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/decomposition/_kernel_pca.py\", line 324, in _get_kernel\n    return pairwise_kernels(\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 2675, in pairwise_kernels\n    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1960, in _parallel_pairwise\n    return func(X, Y, **kwds)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 1608, in rbf_kernel\n    K = euclidean_distances(X, Y, squared=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/_param_validation.py\", line 191, in wrapper\n    return func(*args, **kwargs)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 388, in euclidean_distances\n    return _euclidean_distances(X, Y, X_norm_squared, Y_norm_squared, squared)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/metrics/pairwise.py\", line 424, in _euclidean_distances\n    distances = -2 * safe_sparse_dot(X, Y.T, dense_output=True)\n  File \"/home/jonatas/project/ibge-censo-agro-research/venv/lib/python3.10/site-packages/sklearn/utils/extmath.py\", line 203, in safe_sparse_dot\n    ret = a @ b\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 74.5 GiB for an array with shape (100000, 100000) and data type float64\n"
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 510.7251887321472,
+        "peak_memory_in_mb": 11782.792969,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 522.3970746994019,
+        "peak_memory_in_mb": 11807.054688,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 527.0118193626404,
+        "peak_memory_in_mb": 11799.035156,
+        "output_msg": ""
+    },
+    {
+        "model": "LUNAR",
+        "type": "Graph-based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 1800.101359128952,
+        "peak_memory_in_mb": 30113.75,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=LUNAR --dataset_ratio=1                 --seed=5 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 123.65450739860535,
+        "peak_memory_in_mb": 11818.183594,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 232.3623812198639,
+        "peak_memory_in_mb": 11817.996094,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 456.3737223148346,
+        "peak_memory_in_mb": 11822.019531,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 546.3464376926422,
+        "peak_memory_in_mb": 11859.730469,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 620.2831950187683,
+        "peak_memory_in_mb": 30993.296875,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 41.73568606376648,
+        "peak_memory_in_mb": 11813.492188,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 44.32270646095276,
+        "peak_memory_in_mb": 11814.25,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 77.1347165107727,
+        "peak_memory_in_mb": 11826.070312,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 117.22637438774109,
+        "peak_memory_in_mb": 11882.535156,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 229.63629007339478,
+        "peak_memory_in_mb": 19161.671875,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 418.0240168571472,
+        "peak_memory_in_mb": 31516.6875,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 40.805450201034546,
+        "peak_memory_in_mb": 11816.71875,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 44.00436067581177,
+        "peak_memory_in_mb": 12034.644531,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 76.22331666946411,
+        "peak_memory_in_mb": 11823.5,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 109.59547591209412,
+        "peak_memory_in_mb": 11853.699219,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 214.4728398323059,
+        "peak_memory_in_mb": 19140.421875,
+        "output_msg": ""
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 412.6189613342285,
+        "peak_memory_in_mb": 31289.691406,
+        "output_msg": ""
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 128.3006625175476,
+        "peak_memory_in_mb": 11807.285156,
+        "output_msg": ""
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 1594.0229396820068,
+        "peak_memory_in_mb": 12039.140625,
+        "output_msg": ""
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 1800.110904455185,
+        "peak_memory_in_mb": 11821.230469,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.1                 --seed=2 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 1800.1043787002563,
+        "peak_memory_in_mb": 12040.980469,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.2                 --seed=2 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 1800.1097419261932,
+        "peak_memory_in_mb": 12118.089844,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.5                 --seed=2 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 1800.1138050556183,
+        "peak_memory_in_mb": 17277.226562,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=1                 --seed=2 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 122.7943959236145,
+        "peak_memory_in_mb": 11834.628906,
+        "output_msg": ""
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 1579.1302790641785,
+        "peak_memory_in_mb": 11786.621094,
+        "output_msg": ""
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 1800.1083071231842,
+        "peak_memory_in_mb": 11805.171875,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.1                 --seed=3 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 1800.112919330597,
+        "peak_memory_in_mb": 11801.875,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.2                 --seed=3 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 1800.107575416565,
+        "peak_memory_in_mb": 12380.886719,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.5                 --seed=3 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 1800.1032767295837,
+        "peak_memory_in_mb": 17295.347656,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=1                 --seed=3 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 834.1387994289398,
+        "peak_memory_in_mb": 11503.640625,
+        "output_msg": ""
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 1800.1034071445465,
+        "peak_memory_in_mb": 11803.253906,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.1                 --seed=5 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 1800.114197731018,
+        "peak_memory_in_mb": 11811.957031,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.2                 --seed=5 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 1800.1084759235382,
+        "peak_memory_in_mb": 12109.964844,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=0.5                 --seed=5 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 1800.1134428977966,
+        "peak_memory_in_mb": 17290.796875,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=R-Graph --dataset_ratio=1                 --seed=5 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 2,
+        "time_in_seconds": 419.03282165527344,
+        "peak_memory_in_mb": 11810.675781,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 2,
+        "time_in_seconds": 1800.0559148788452,
+        "peak_memory_in_mb": 16712.429688,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=VAE --dataset_ratio=1                 --seed=2 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 3,
+        "time_in_seconds": 205.12784075737,
+        "peak_memory_in_mb": 12036.238281,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 3,
+        "time_in_seconds": 1455.8998248577118,
+        "peak_memory_in_mb": 11809.429688,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 3,
+        "time_in_seconds": 1800.1118159294128,
+        "peak_memory_in_mb": 16708.605469,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=VAE --dataset_ratio=1                 --seed=3 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.001,
+        "num_samples": 500,
+        "seed": 5,
+        "time_in_seconds": 644.4422075748444,
+        "peak_memory_in_mb": 11512.917969,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 5,
+        "time_in_seconds": 915.1283986568451,
+        "peak_memory_in_mb": 11823.351562,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 5,
+        "time_in_seconds": 1683.541363477707,
+        "peak_memory_in_mb": 11869.113281,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 1,
+        "num_samples": 500000,
+        "seed": 5,
+        "time_in_seconds": 1800.1087939739227,
+        "peak_memory_in_mb": 16984.945312,
+        "output_msg": "Command 'mprof run --output=tmp/memory_log.txt check_recursos.py --model=VAE --dataset_ratio=1                 --seed=5 --data_filepath=tmp/a_estabel.csv --dtype_filepath=data/estabel_dtypes.json                 --variable_map_filepath=data/variable_map.json > /dev/null' timed out after 1800 seconds"
+    },
+    {
+        "model": "PCA",
+        "type": "Linear",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 1272.2978150844574,
+        "peak_memory_in_mb": 19164.980469,
+        "output_msg": ""
+    },
+    {
+        "model": "R-Graph",
+        "type": "Graph-based",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 1621.4848668575287,
+        "peak_memory_in_mb": 11814.914062,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 2,
+        "time_in_seconds": 99.32035446166992,
+        "peak_memory_in_mb": 12031.738281,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.01,
+        "num_samples": 5000,
+        "seed": 5,
+        "time_in_seconds": 97.31689476966858,
+        "peak_memory_in_mb": 11811.847656,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 2,
+        "time_in_seconds": 610.4156358242035,
+        "peak_memory_in_mb": 11811.753906,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 2,
+        "time_in_seconds": 901.1468667984009,
+        "peak_memory_in_mb": 11798.542969,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 2,
+        "time_in_seconds": 1580.7245347499847,
+        "peak_memory_in_mb": 11864.699219,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 3,
+        "time_in_seconds": 604.1300594806671,
+        "peak_memory_in_mb": 11803.210938,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.2,
+        "num_samples": 100000,
+        "seed": 3,
+        "time_in_seconds": 851.215972661972,
+        "peak_memory_in_mb": 11803.285156,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.5,
+        "num_samples": 250000,
+        "seed": 3,
+        "time_in_seconds": 1674.6854166984558,
+        "peak_memory_in_mb": 12122.453125,
+        "output_msg": ""
+    },
+    {
+        "model": "VAE",
+        "type": "Neural Networks",
+        "dataset_ratio": 0.1,
+        "num_samples": 50000,
+        "seed": 5,
+        "time_in_seconds": 494.4005825519562,
+        "peak_memory_in_mb": 12038.738281,
+        "output_msg": ""
+    }
+]

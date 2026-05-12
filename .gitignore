@@ -189,6 +189,9 @@ cython_debug/
 # .vscode/
 
 *.db
+*.parquet
+
+TODO
 
 # Ruff stuff:
 .ruff_cache/

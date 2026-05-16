@@ -345,9 +345,3 @@ class AnomalyDetectionEncoder(BaseEstimator, TransformerMixin):
             'continuous': 'RobustScaler'
         }
         return mapping.get(col_type, 'Unknown')
-
-
-# %%
-
-print("Hello, world!")
-# %%

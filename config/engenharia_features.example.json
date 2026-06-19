@@ -1,0 +1,113 @@
+{
+  "_comentario": "Copie este arquivo para engenharia_features.private.json e preencha caminhos reais, datasets e regras reais. O notebook não deve conter listas sensíveis nem thresholds hardcoded.",
+  "config_version": "1.0",
+  "io": {
+    "input_db": "<caminho do banco sqlite de origem>",
+    "output_dir": "<caminho do diretório de saída>",
+    "audit_path": "<caminho do json de auditoria>",
+    "variable_map_path": "<caminho do mapa de variáveis>",
+    "overwrite_outputs": false
+  },
+  "constants": {
+    "key_columns": ["<coluna_chave_1>", "<coluna_chave_2>"],
+    "empty_category": "<EMPTY>",
+    "no_category": "1",
+    "flag_dtype": "category"
+  },
+  "datasets": [
+    {
+      "name": "base_exemplo",
+      "table": "<nome_da_tabela>",
+      "output_name": "df_base_exemplo",
+      "select_columns": ["COLUNA_A", "COLUNA_B", "COLUNA_C"],
+      "drop_columns": ["COLUNA_DESCARTADA"],
+      "imputation": {
+        "numeric_zero": ["COLUNA_A"],
+        "numeric_median": ["COLUNA_B"],
+        "categorical_empty": ["COLUNA_C"],
+        "categorical_no": []
+      },
+      "rules": [
+        {
+          "id": "demo_merge_context",
+          "enabled": true,
+          "kind": "merge_context",
+          "source_dataset": "base_exemplo",
+          "on_columns": ["<coluna_chave_1>", "<coluna_chave_2>"],
+          "how": "left",
+          "suffixes": [null, "_ctx"],
+          "drop_source_duplicates": true
+        },
+        {
+          "id": "demo_ratio",
+          "enabled": true,
+          "kind": "ratio",
+          "inputs": {
+            "numerator": "COLUNA_A",
+            "denominator": "COLUNA_B",
+            "zero_denominator": "na"
+          },
+          "outputs": {
+            "column": "razao_demo",
+            "dtype": "Float32"
+          }
+        }
+      ]
+    },
+    {
+      "name": "base_flag_exemplo",
+      "table": "<nome_da_tabela_2>",
+      "output_name": "df_base_flag_exemplo",
+      "select_columns": ["COLUNA_D", "COLUNA_E"],
+      "drop_columns": [],
+      "imputation": {
+        "numeric_zero": [],
+        "numeric_median": [],
+        "categorical_empty": ["COLUNA_D"],
+        "categorical_no": ["COLUNA_E"]
+      },
+      "rules": [
+        {
+          "id": "demo_flag",
+          "enabled": true,
+          "kind": "flag",
+          "condition": {
+            "logic": "all",
+            "clauses": [
+              {
+                "field": "COLUNA_D",
+                "op": "eq",
+                "value": "2"
+              },
+              {
+                "field": "COLUNA_E",
+                "op": "gt",
+                "value": 0
+              }
+            ]
+          },
+          "outputs": {
+            "column": "flag_demo",
+            "dtype": "category"
+          }
+        }
+      ]
+    }
+  ],
+  "shared_rules": [],
+  "exports": {
+    "parquet": [
+      {
+        "dataset": "base_exemplo",
+        "path": "<caminho do parquet de saída>",
+        "index": false
+      }
+    ]
+  },
+  "auditing": {
+    "enabled": true,
+    "track_rule_counts": true,
+    "track_nulls": true,
+    "track_columns": true
+  }
+}

@@ -5,7 +5,7 @@ Este módulo fornece uma classe transformer compatível com scikit-learn que
 aplica diferentes estratégias de encoding baseadas no tipo de variável,
 otimizadas para tarefas de detecção de anomalias.
 
-Autor: Sistema de Análise IBGE
+Autor: Carlos Rocha
 Data: 2026
 """
 

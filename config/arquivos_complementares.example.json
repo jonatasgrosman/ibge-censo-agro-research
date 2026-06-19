@@ -1,0 +1,86 @@
+{
+  "_comentario": "Copie este arquivo para arquivos_complementares.private.json e ajuste os caminhos se necessário.",
+  "quadros_glob": "../data/dados_censo_2017/Metadata/quadros/*.json",
+  "mapa_variaveis_path": "../data/mapa_variaveis_new.json",
+  "output_condicoes_path": "../data/generated/condicoes_exibicao.json",
+  "output_form_structure_path": "../data/generated/form_structure_generated.json",
+  "reference_form_structure_path": "../data/form_structure.json",
+  "question_block_keys": [
+    "Quesitos",
+    "QuesitoProdutos",
+    "ListaProdutos",
+    "QuesitoProdutosAgrupados",
+    "ListaDeProdutos"
+  ],
+  "condition_normalization": {
+    "&&": "and",
+    "||": "or",
+    "null": "None",
+    "X_": ""
+  },
+  "classification": {
+    "normalize_unicode": true,
+    "fallback_section": "information",
+    "enforce_reference_output": true,
+    "include_show_units": true,
+    "section_keywords": {
+      "area": [
+        "area",
+        "ha",
+        "hectare",
+        "distribuicao da area",
+        "utilizacao das terras",
+        "pastagem",
+        "matas",
+        "lavoura",
+        "silvicultura"
+      ],
+      "production": [
+        "producao",
+        "produz",
+        "colheita",
+        "colhido",
+        "colhida",
+        "cria",
+        "criados",
+        "efetivo",
+        "quantidade produzida",
+        "rebanho"
+      ],
+      "sells": [
+        "venda",
+        "vendido",
+        "vendida",
+        "vendidos",
+        "vendidas",
+        "comercializacao",
+        "valor da venda",
+        "receita",
+        "transferido",
+        "transferida",
+        "preco"
+      ],
+      "information": [
+        "caracteristicas",
+        "informacoes",
+        "identificacao",
+        "existia",
+        "havia",
+        "finalidade",
+        "numero de",
+        "autenticacao"
+      ]
+    },
+    "text_fields_priority": [
+      "description",
+      "reference",
+      "question_text",
+      "question_group_text",
+      "quadro_title"
+    ]
+  },
+  "logging": {
+    "verbose": true,
+    "show_duplicates": false
+  }
+}

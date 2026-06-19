@@ -1,4 +1,20 @@
+_ignore*
+
+data
 data/experimentos/
+data/resultados/
+data/dados_censo_2017
+data/samples
+
+# Arquivos com informações privadas — não versionados
+*.private.json
+*.private.yaml
+*.private.yml
+config/*.private.*
+
+# Mapas de variáveis gerados localmente
+data/mapa_variaveis.json
+data/mapa_variaveis_new.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

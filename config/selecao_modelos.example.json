@@ -1,8 +1,8 @@
 {
   "_comentario": "Copie para selecao_modelos.private.json e ajuste conforme seu ambiente.",
   "input": {
-    "dataset_path": "../data/experimentos/ground_truth.csv",
-    "text_column": "<COD_VARIAVEL>",
+    "dataset_path": "../data_example/observacoes_classificadas_exemplo.csv",
+    "text_column": "V50000000",
     "class_columns": [
       "Contexto (Baixa Prod)",
       "Contexto (Baixo Valor)",

@@ -1,0 +1,93 @@
+{
+  "Id": "01",
+  "Descricao": "01 - Identificacao do Estabelecimento Agropecuario e Area Total",
+  "CorQuadro": "#f0c823",
+  "Grupo": "T_CRIT_ESTABELEC_AGRO",
+  "VariaveisDerivadas": [
+    "V01170300",
+    "VW01170300"
+  ],
+  "Quesitos": [
+    {
+      "NumeroSequencial": "1",
+      "Titulo": "Qual e o nome do estabelecimento?",
+      "Tipo": "Normal",
+      "Perguntas": [
+        {
+          "Id": "1",
+          "Tipo": "texto",
+          "CodigoVariavel": "V011300",
+          "Titulo": "Nome do estabelecimento",
+          "PreenchimentoObrigatorio": "Sim"
+        }
+      ]
+    },
+    {
+      "NumeroSequencial": "2",
+      "Titulo": "Telefone",
+      "Tipo": "Normal",
+      "Perguntas": [
+        {
+          "Id": "1",
+          "Tipo": "radiobutton",
+          "CodigoVariavel": "V01150000",
+          "Titulo": "Possui telefone?",
+          "PreenchimentoObrigatorio": "Sim"
+        },
+        {
+          "Id": "2",
+          "Tipo": "campo_telefone",
+          "CodigoVariavel": "V01150101",
+          "Titulo": "Telefone Fixo",
+          "CondicaoDeExibicao": "V01150000 == 2",
+          "PreenchimentoObrigatorio": "Nao",
+          "Criticas": [
+            {
+              "Id": "personalizada",
+              "Mensagem": "Registre pelo menos um numero",
+              "Tipo": "erro",
+              "Condicao": "V01150000 == 2 && V01150101 == null && V01150102 == null",
+              "CodigoDaVariavel": "V01150101"
+            }
+          ]
+        },
+        {
+          "Id": "3",
+          "Tipo": "campo_celular",
+          "CodigoVariavel": "V01150102",
+          "Titulo": "Telefone Celular",
+          "CondicaoDeExibicao": "V01150000 == 2",
+          "PreenchimentoObrigatorio": "Nao"
+        }
+      ]
+    },
+    {
+      "NumeroSequencial": "3",
+      "Titulo": "Area total",
+      "Tipo": "Normal",
+      "Perguntas": [
+        {
+          "Id": "1",
+          "Tipo": "numero",
+          "CodigoVariavel": "V01170100",
+          "Titulo": "Area",
+          "PreenchimentoObrigatorio": "V01170500 != 2",
+          "Criticas": [
+            {
+              "Id": "personalizada",
+              "Condicao": "V01170100 == 0 && V01170500 != 2",
+              "Tipo": "erro",
+              "Mensagem": "Deve ser preenchida a area total"
+            },
+            {
+              "Id": "personalizada",
+              "Condicao": "VW01170300 > 10000",
+              "Tipo": "alerta",
+              "Mensagem": "Area total maior que 10.000 hectares."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

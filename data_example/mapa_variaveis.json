@@ -1,0 +1,248 @@
+{
+    "Codigo": {
+        "name": "Nome",
+        "dtype": "",
+        "type": "condition",
+        "condition": "Equacao",
+        "possible_values": []
+    },
+    "V01170300": {
+        "name": "Area total em hectares",
+        "dtype": "Float32",
+        "type": "condition",
+        "condition": "V01170300=(V01170100 * V01170300) / 10000;",
+        "possible_values": []
+    },
+    "VW01170300": {
+        "name": "Area total derivada",
+        "dtype": "Float32",
+        "type": "condition",
+        "condition": "VW01170300=(V01170100 * V01170300) / 10000;",
+        "possible_values": []
+    },
+    "VW40020300": {
+        "name": "Quantidade produzida derivada",
+        "dtype": "Float32",
+        "type": "condition",
+        "condition": "VW40020300=V40020300;",
+        "possible_values": []
+    },
+    "VW40020400": {
+        "name": "Quantidade vendida derivada",
+        "dtype": "Float32",
+        "type": "condition",
+        "condition": "VW40020400=V40020400;",
+        "possible_values": []
+    },
+    "VW40020600": {
+        "name": "Preco medio derivado",
+        "dtype": "Float32",
+        "type": "condition",
+        "condition": "VW40020600=V40020600;",
+        "possible_values": []
+    },
+    "VW39020400": {
+        "name": "Area colhida derivada",
+        "dtype": "Float32",
+        "type": "condition",
+        "condition": "VW39020400=V39020400;",
+        "possible_values": []
+    },
+    "V011300": {
+        "name": "Nome do estabelecimento",
+        "dtype": "object",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V01150000": {
+        "name": "Possui telefone",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V01150101": {
+        "name": "Telefone fixo",
+        "dtype": "object",
+        "type": "value",
+        "possible_values": [],
+        "condition": "V01150000 == 2",
+        "reference": "ESTABELEC AGRO"
+    },
+    "V01150102": {
+        "name": "Telefone celular",
+        "dtype": "object",
+        "type": "value",
+        "possible_values": [],
+        "condition": "V01150000 == 2",
+        "reference": "ESTABELEC AGRO"
+    },
+    "V01170100": {
+        "name": "Area",
+        "dtype": "Float64",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V01170500": {
+        "name": "Situacao area",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V01170501": {
+        "name": "Area ate 5 ha",
+        "dtype": "Float32",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V02010000": {
+        "name": "Condicao produtor",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V02020000": {
+        "name": "Sexo produtor",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V33010600": {
+        "name": "Silvicultura existe",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V33010700": {
+        "name": "Produtos silvicultura",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V41010100": {
+        "name": "Teve beneficiamento",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "ESTABELEC AGRO"
+    },
+    "V40010100": {
+        "name": "Produto silvicultura",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "PRODUTOS SILVICULTURA"
+    },
+    "V40020300": {
+        "name": "Quantidade produzida",
+        "dtype": "Float64",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "PRODUTOS SILVICULTURA"
+    },
+    "V40020400": {
+        "name": "Quantidade vendida",
+        "dtype": "Float64",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "PRODUTOS SILVICULTURA"
+    },
+    "V40020600": {
+        "name": "Preco medio",
+        "dtype": "Float64",
+        "type": "value",
+        "possible_values": [],
+        "condition": "X_V40020400 > 0",
+        "reference": "PRODUTOS SILVICULTURA"
+    },
+    "V34010100": {
+        "name": "Produto lavoura temporaria",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "LAVOURA TEMPORARIA"
+    },
+    "V34020300": {
+        "name": "Quantidade produzida",
+        "dtype": "Float64",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "LAVOURA TEMPORARIA"
+    },
+    "V34020400": {
+        "name": "Quantidade vendida",
+        "dtype": "Float64",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "LAVOURA TEMPORARIA"
+    },
+    "V34021700": {
+        "name": "Destino venda",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "LAVOURA TEMPORARIA"
+    },
+    "V39010100": {
+        "name": "Especies silvicultura",
+        "dtype": "category",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "EFETIVOS SILVICULTURA"
+    },
+    "V39020300": {
+        "name": "Pes existentes",
+        "dtype": "Float64",
+        "type": "value",
+        "possible_values": [],
+        "condition": null,
+        "reference": "EFETIVOS SILVICULTURA"
+    },
+    "V39020501": {
+        "name": "Sem titulo",
+        "dtype": "",
+        "type": "value",
+        "possible_values": [],
+        "condition": null
+    },
+    "VW40020201": {
+        "name": "Sem titulo",
+        "dtype": "",
+        "type": "value",
+        "possible_values": [],
+        "condition": null
+    },
+    "VW40020301": {
+        "name": "Sem titulo",
+        "dtype": "",
+        "type": "value",
+        "possible_values": [],
+        "condition": null
+    }
+}

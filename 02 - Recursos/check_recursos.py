@@ -1,6 +1,7 @@
 import json
 import numpy as np
 import pandas as pd
+from pathlib import Path
 
 from sklearn.preprocessing import MinMaxScaler
 
@@ -43,15 +44,15 @@ MODELS = {
 }
 
 
-DATA_FILEPATH = 'data/a_estabel_sample.csv'
-DTYPE_FILEPATH = 'data/estabel_dtypes.json'
-VARIABLE_MAP_FILEPATH = 'data/variable_map.json'
+# Configuração padrão para demonstração com dados de exemplo do projeto.
+# Para execução com dados reais, ajuste os caminhos ou passe via linha de comando.
+DATA_FILEPATH = '../data_example/samples/amstr_estabel.csv'
+VARIABLE_MAP_FILEPATH = '../data_example/mapa_variaveis.json'
 
 
-def main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map_filepath):
+def main(model_name, dataset_ratio, seed, data_filepath, variable_map_filepath):
 
-    dtypes = json.load(open(dtype_filepath))
-    df = pd.read_csv(data_filepath, dtype=dtypes)
+    df = pd.read_csv(data_filepath)
 
     # Criando o ID de região do pais
     estabel_ids = df['V010100'].astype(str)
@@ -69,7 +70,7 @@ def main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variabl
 
     # Transformando o dicionário em DataFrame, excluindo as chaves especificadas
     variable_map_df = pd.DataFrame.from_dict(variable_map, orient='index')
-    variable_map_df = variable_map_df.drop(columns=['condition', 'reference'])
+    variable_map_df = variable_map_df.drop(columns=['condition', 'reference'], errors='ignore')
 
     categorical_variables_map = get_variable_encoding_map(df, variable_map_df)
     numerical_variables_map = {
@@ -98,7 +99,6 @@ if __name__ == '__main__':
     parser.add_argument('--dataset_ratio', type=float, default=0.1, help='Proporção do dataset a ser usado no teste (0.0-1.0)')
     parser.add_argument('--seed', type=int, default=42, help='Semente para seleção aleatória de amostra do dataset')
     parser.add_argument('--data_filepath', type=str, default=DATA_FILEPATH, help='Caminho para o arquivo CSV dos dados')
-    parser.add_argument('--dtype_filepath', type=str, default=DTYPE_FILEPATH, help='Caminho para o arquivo JSON dos tipos de dados')
     parser.add_argument('--variable_map_filepath', type=str, default=VARIABLE_MAP_FILEPATH, help='Caminho para o arquivo JSON do mapeamento de variáveis')
     args = parser.parse_args()
 
@@ -106,7 +106,6 @@ if __name__ == '__main__':
     dataset_ratio = args.dataset_ratio
     seed = args.seed
     data_filepath = args.data_filepath
-    dtype_filepath = args.dtype_filepath
     variable_map = args.variable_map_filepath
 
-    main(model_name, dataset_ratio, seed, data_filepath, dtype_filepath, variable_map)
+    main(model_name, dataset_ratio, seed, data_filepath, variable_map)

@@ -1,0 +1,102 @@
+{
+  "Variaveis": [
+    {
+      "Codigo": "V011300",
+      "Tipo": "Texto",
+      "Inteiro": "",
+      "Decimal": "",
+      "Valores": []
+    },
+    {
+      "Codigo": "V01150000",
+      "Tipo": "Codigo",
+      "Inteiro": "1",
+      "Decimal": "0",
+      "Valores": [
+        {
+          "Gravacao": "1",
+          "Exibicao": "Nao"
+        },
+        {
+          "Gravacao": "2",
+          "Exibicao": "Sim"
+        }
+      ]
+    },
+    {
+      "Codigo": "V01150101",
+      "Tipo": "Texto",
+      "Inteiro": "",
+      "Decimal": "",
+      "Valores": []
+    },
+    {
+      "Codigo": "V01170100",
+      "Tipo": "Numero",
+      "Inteiro": "9",
+      "Decimal": "2",
+      "Valores": []
+    },
+    {
+      "Codigo": "V02010000",
+      "Tipo": "Codigo",
+      "Inteiro": "1",
+      "Decimal": "0",
+      "Valores": [
+        {
+          "Gravacao": "1",
+          "Exibicao": "Op1"
+        },
+        {
+          "Gravacao": "2",
+          "Exibicao": "Op2"
+        },
+        {
+          "Gravacao": "3",
+          "Exibicao": "Op3"
+        }
+      ]
+    },
+    {
+      "Codigo": "V34010100",
+      "Tipo": "CodigoProduto",
+      "Inteiro": "3",
+      "Decimal": "0",
+      "Valores": [
+        {
+          "Gravacao": "201",
+          "Exibicao": "Prod A"
+        },
+        {
+          "Gravacao": "202",
+          "Exibicao": "Prod B"
+        },
+        {
+          "Gravacao": "203",
+          "Exibicao": "Prod C"
+        }
+      ]
+    },
+    {
+      "Codigo": "V40010100",
+      "Tipo": "CodigoProduto",
+      "Inteiro": "3",
+      "Decimal": "0",
+      "Valores": [
+        {
+          "Gravacao": "514",
+          "Exibicao": "Eucalipto"
+        },
+        {
+          "Gravacao": "516",
+          "Exibicao": "Pinheiro"
+        },
+        {
+          "Gravacao": "521",
+          "Exibicao": "Casca"
+        }
+      ]
+    }
+  ],
+  "Derivadas": []
+}

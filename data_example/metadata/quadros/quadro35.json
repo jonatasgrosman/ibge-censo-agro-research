@@ -1,0 +1,100 @@
+{
+  "Id": "35",
+  "Escopo": "Produto",
+  "Nome": "Produtos Silvicultura",
+  "Descricao": "35 - Produtos da silvicultura",
+  "Grupo": "T_CRIT_PRODUTOS_SILVICULTURA",
+  "CorQuadro": "#f0c823",
+  "VariaveisDerivadas": [
+    "X_VW40020201",
+    "X_VW40020300",
+    "X_VW40020301",
+    "X_VW40020400",
+    "X_VW40020600"
+  ],
+  "CondicaoDeExibicao": "V33010700 == 2",
+  "CodigoVariavelListaDeProdutos": "V40010100",
+  "IdentificacaoProduto": "Produtos da silvicultura",
+  "ListaDeProdutos": {
+    "NumeroSequencial": "1",
+    "Titulo": "Quais foram os produtos da silvicultura colhidos?",
+    "Tipo": "ListaDeProdutos",
+    "Perguntas": [
+      {
+        "Id": "1",
+        "Tipo": "lista_checkbox",
+        "CodigoVariavel": "V40010100",
+        "PreenchimentoObrigatorio": "Sim",
+        "Criticas": [
+          {
+            "Id": "personalizada",
+            "Condicao": "numeroProdutosExistentes(V40010100,521,521) > 0 && numeroProdutosExistentes(V39010100,501,501) == 0",
+            "Tipo": "alerta",
+            "Mensagem": "Declaracao de casca sem acacia."
+          }
+        ]
+      }
+    ]
+  },
+  "QuesitoProdutos": [
+    {
+      "NumeroSequencial": "2",
+      "Titulo": "Quantidade produzida, quantidade vendida e preco medio unitario",
+      "Tipo": "Produto",
+      "Perguntas": [
+        {
+          "Id": "1",
+          "Tipo": "numero",
+          "CodigoVariavel": "V40020300",
+          "Titulo": "Quantidade produzida",
+          "PreenchimentoObrigatorio": "Sim",
+          "Criticas": [
+            {
+              "Id": "personalizada",
+              "Condicao": "X_VW40020300 > 50000",
+              "Tipo": "alerta",
+              "Mensagem": "Quantidade produzida acima do esperado."
+            }
+          ]
+        },
+        {
+          "Id": "2",
+          "Tipo": "numero",
+          "CodigoVariavel": "V40020400",
+          "Titulo": "Quantidade vendida",
+          "PreenchimentoObrigatorio": "Nao",
+          "Criticas": [
+            {
+              "Id": "personalizada",
+              "Condicao": "X_VW40020400 > X_VW40020300",
+              "Tipo": "erro",
+              "Mensagem": "Quantidade vendida maior que produzida."
+            }
+          ]
+        },
+        {
+          "Id": "5",
+          "Tipo": "numero",
+          "CodigoVariavel": "V40020600",
+          "Titulo": "Preco medio",
+          "CondicaoDeExibicao": "X_V40020400 > 0",
+          "PreenchimentoObrigatorio": "X_V40020400 > 0",
+          "Criticas": [
+            {
+              "Id": "personalizada",
+              "Condicao": "X_VW40020600 > getPrecoMaximo(X_V40010100)",
+              "Tipo": "alerta",
+              "Mensagem": "Preco medio acima do esperado."
+            },
+            {
+              "Id": "personalizada",
+              "Condicao": "X_VW40020600 < getPrecoMinimo(X_V40010100) && X_V40020600 > 0",
+              "Tipo": "alerta",
+              "Mensagem": "Preco medio abaixo do esperado."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

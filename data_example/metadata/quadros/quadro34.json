@@ -1,0 +1,58 @@
+{
+  "Id": "34",
+  "Escopo": "Produto",
+  "Nome": "Efetivo Silvicultura",
+  "Descricao": "34 - Efetivo da silvicultura",
+  "Grupo": "T_CRIT_EFETIVOS_SILVICULTURA",
+  "CorQuadro": "#A5D6A7",
+  "VariaveisDerivadas": [
+    "X_V39020501",
+    "X_VW39020400"
+  ],
+  "CondicaoDeExibicao": "V33010600 == 2",
+  "IdentificacaoProduto": "Efetivo da Silvicultura",
+  "CodigoVariavelListaDeProdutos": "V39010100",
+  "ListaDeProdutos": {
+    "NumeroSequencial": "1",
+    "Titulo": "Quais eram as especies da silvicultura?",
+    "Tipo": "ListaDeProdutos",
+    "Perguntas": [
+      {
+        "Tipo": "lista_checkbox",
+        "CodigoVariavel": "V39010100",
+        "PreenchimentoObrigatorio": "Sim",
+        "Id": "6"
+      }
+    ]
+  },
+  "QuesitoProdutos": [
+    {
+      "NumeroSequencial": "2",
+      "Titulo": "Efetivos da silvicultura",
+      "Tipo": "Produto",
+      "Perguntas": [
+        {
+          "Tipo": "numero",
+          "CodigoVariavel": "V39020300",
+          "Titulo": "Pes existentes",
+          "Criticas": [
+            {
+              "Id": "personalizada",
+              "Condicao": "(X_V39020300 / VW04100000) > getDensidadeMaxima(X_V39010100) && X_V39020300 > 500",
+              "Tipo": "alerta",
+              "Mensagem": "Densidade fora dos limites."
+            },
+            {
+              "Id": "personalizada",
+              "Condicao": "X_V39020300 == 0",
+              "Tipo": "erro",
+              "Mensagem": "Preenchimento obrigatorio."
+            }
+          ],
+          "PreenchimentoObrigatorio": "Nao",
+          "Id": "1"
+        }
+      ]
+    }
+  ]
+}

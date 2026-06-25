@@ -1,0 +1,39 @@
+{
+  "versao": 2,
+  "nome": "ppsil_novo",
+  "infoProdutos": [
+    {
+      "codigoProduto": "514",
+      "nomeProduto": "EUCALIPTO - UNIDADE",
+      "limiteInferior": "0.5",
+      "limiteSuperior": "100",
+      "rendimentoMinimo": "",
+      "rendimentoMaximo": "",
+      "densidadeMinima": "",
+      "densidadeMaxima": "",
+      "unidadeDeMedida": "UNIDADE"
+    },
+    {
+      "codigoProduto": "516",
+      "nomeProduto": "PINHEIRO - UNIDADE",
+      "limiteInferior": "1",
+      "limiteSuperior": "120",
+      "rendimentoMinimo": "",
+      "rendimentoMaximo": "",
+      "densidadeMinima": "",
+      "densidadeMaxima": "",
+      "unidadeDeMedida": "UNIDADE"
+    },
+    {
+      "codigoProduto": "521",
+      "nomeProduto": "CASCA - UNIDADE",
+      "limiteInferior": "0.1",
+      "limiteSuperior": "50",
+      "rendimentoMinimo": "",
+      "rendimentoMaximo": "",
+      "densidadeMinima": "",
+      "densidadeMaxima": "",
+      "unidadeDeMedida": "UNIDADE"
+    }
+  ]
+}

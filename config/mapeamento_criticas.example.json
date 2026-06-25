@@ -1,16 +1,21 @@
 {
-  "input_glob": "<glob dos arquivos de quadros, ex: ../data/.../Metadata/quadros/*.json>",
-  "input_db": "<caminho para o banco sqlite a ser atualizado>",
-  "variable_map_path": "<caminho para o mapa_variaveis a ser utilizado>",
+  "input_glob": "../data_example/metadata/quadros/*.json",
+  "input_db": "../data_example/amstr_geral.db",
+  "variable_map_path": "../data_example/mapa_variaveis.json",
   "overwrite_tables": true,
-  "key_cols": ["<colunas_ref>"],
-  "estabel_table": "<nome_arquivo_estabel>",
+  "key_cols": [
+    "V010100",
+    "NUM_QUADRA",
+    "NUM_FACE",
+    "V010800"
+  ],
+  "estabel_table": "amstr_estabel",
   "string_vars": [
-    "<variavel textual 1>",
-    "<variavel textual 2>"
+    "V01150102",
+    "V01150101"
   ],
   "product_code_by_source": {
-    "<nome_tabela_1>": "<variavel_codigo_produto_1>",
-    "<nome_tabela_2>": "<variavel_codigo_produto_2>"
+    "amstr_lav_temp": "V34010100",
+    "amstr_silv": "V40010100"
   }
 }

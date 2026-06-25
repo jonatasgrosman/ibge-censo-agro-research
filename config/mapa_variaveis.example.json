@@ -1,12 +1,21 @@
 {
   "_comentario": "Copie este arquivo para mapa_variaveis.private.json e preencha os caminhos reais. O arquivo .private.json não é versionado.",
-  "path_derivadas":  "<caminho absoluto ou relativo ao arquivo XLS de variáveis derivadas>",
-  "path_dicionarios": ["<caminho absoluto ou relativo ao arquivo XLS do dicionário de variáveis 1>", "<caminho absoluto ou relativo ao arquivo XLS do dicionário de variáveis 2>"],
-  "nomes_validos_dicionario": ["lista de nomes das folhas validas no arquivo de derivadas, ex: ['Estabel', 'Pecu']"],
-  "path_filtros":    "<caminho absoluto ou relativo ao arquivo JSON de filtros>",
-  "glob_quadros":    "<padrão glob para os arquivos JSON de quadros, ex: ../data/.../quadros/*.json>",
-  "path_output":     "<caminho de saída do mapa gerado, ex: ../data/mapa_variaveis_new.json>",
+  "path_derivadas": "../data_example/metadata/calculo_derivadas.xlsx",
+  "path_dicionarios": [
+    "../data_example/metadata/dicionario_principal.xlsx",
+    "../data_example/metadata/dicionario_produtos.xlsx"
+  ],
+  "nomes_validos_dicionario": [
+    "ESTABELEC AGRO",
+    "PRODUTOS SILVICULTURA",
+    "LAVOURA TEMPORARIA",
+    "EFETIVOS SILVICULTURA"
+  ],
+  "path_filtros": "../data_example/metadata/filtros/filtros.json",
+  "glob_quadros": "../data_example/metadata/quadros/*.json",
+  "path_output": "../data_example/mapa_variaveis.json",
   "add_info_by_variable": {
-    "<codigo_variavel_produto>": "<caminho para o arquivo *_novo.json de informações por produto>"
+    "V34010100": "../data_example/metadata/informacoes_adicionais/dlavtemp_novo.json",
+    "V40010100": "../data_example/metadata/informacoes_adicionais/ppsil_novo.json"
   }
 }

@@ -1,10 +1,9 @@
 {
   "_comentario": "Copie este arquivo para arquivos_complementares.private.json e ajuste os caminhos se necessário.",
-  "quadros_glob": "../data/dados_censo_2017/Metadata/quadros/*.json",
-  "mapa_variaveis_path": "../data/mapa_variaveis_new.json",
-  "output_condicoes_path": "../data/generated/condicoes_exibicao.json",
-  "output_form_structure_path": "../data/generated/form_structure_generated.json",
-  "reference_form_structure_path": "../data/form_structure.json",
+  "quadros_glob": "../data_example/metadata/quadros/*.json",
+  "mapa_variaveis_path": "../data_example/mapa_variaveis.json",
+  "output_condicoes_path": "../data_example/condicoes_exibicao.json",
+  "output_form_structure_path": "../data_example/form_structure.json",
   "question_block_keys": [
     "Quesitos",
     "QuesitoProdutos",

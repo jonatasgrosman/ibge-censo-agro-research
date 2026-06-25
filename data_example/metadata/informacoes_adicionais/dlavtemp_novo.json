@@ -1,0 +1,39 @@
+{
+  "versao": 2,
+  "nome": "dlavtemp_novo",
+  "infoProdutos": [
+    {
+      "codigoProduto": "201",
+      "nomeProduto": "PROD A - KG",
+      "limiteInferior": "0.1",
+      "limiteSuperior": "6",
+      "rendimentoMinimo": "500",
+      "rendimentoMaximo": "50000",
+      "densidadeMinima": "",
+      "densidadeMaxima": "",
+      "unidadeDeMedida": "KG"
+    },
+    {
+      "codigoProduto": "202",
+      "nomeProduto": "PROD B - KG",
+      "limiteInferior": "0.2",
+      "limiteSuperior": "8",
+      "rendimentoMinimo": "",
+      "rendimentoMaximo": "",
+      "densidadeMinima": "",
+      "densidadeMaxima": "",
+      "unidadeDeMedida": "KG"
+    },
+    {
+      "codigoProduto": "203",
+      "nomeProduto": "PROD C - KG",
+      "limiteInferior": "0.1",
+      "limiteSuperior": "5",
+      "rendimentoMinimo": "",
+      "rendimentoMaximo": "",
+      "densidadeMinima": "",
+      "densidadeMaxima": "",
+      "unidadeDeMedida": "KG"
+    }
+  ]
+}

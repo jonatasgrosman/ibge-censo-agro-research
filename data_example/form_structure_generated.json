@@ -1,0 +1,84 @@
+{
+    "quadro01": {
+        "title": "01 - Identificacao do Estabelecimento Agropecuario e Area Total",
+        "variables": [
+            "V01170300",
+            "VW01170300",
+            "V011300",
+            "V01150000",
+            "V01150101",
+            "V01150102",
+            "V01170100"
+        ],
+        "sections": {
+            "information": [
+                "V01170300",
+                "VW01170300"
+            ],
+            "area": [
+                "V011300",
+                "V01150000",
+                "V01150101",
+                "V01150102",
+                "V01170100"
+            ],
+            "production": [],
+            "sells": []
+        }
+    },
+    "quadro34": {
+        "title": "34 - Efetivo da silvicultura",
+        "variables": [
+            "V39020501",
+            "VW39020400",
+            "V39020300",
+            "V39010100"
+        ],
+        "sections": {
+            "information": [
+                "V39020501",
+                "VW39020400"
+            ],
+            "area": [
+                "V39010100"
+            ],
+            "production": [
+                "V39020300"
+            ],
+            "sells": []
+        }
+    },
+    "quadro35": {
+        "title": "35 - Produtos da silvicultura",
+        "variables": [
+            "VW40020201",
+            "VW40020300",
+            "VW40020301",
+            "VW40020400",
+            "VW40020600",
+            "V40020300",
+            "V40020400",
+            "V40020600",
+            "V40010100"
+        ],
+        "sections": {
+            "information": [
+                "VW40020201",
+                "VW40020300",
+                "VW40020301",
+                "VW40020400",
+                "VW40020600"
+            ],
+            "area": [
+                "V40010100"
+            ],
+            "production": [
+                "V40020300"
+            ],
+            "sells": [
+                "V40020400",
+                "V40020600"
+            ]
+        }
+    }
+}

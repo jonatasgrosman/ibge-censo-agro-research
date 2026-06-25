@@ -1,0 +1,19 @@
+{
+  "Filtros": [
+    {
+      "CodigoVariavel": "V02010000",
+      "Valor": "3",
+      "Condicao": "V01170500 == 2 && V01170501 < 5 && V01170501 > 0"
+    },
+    {
+      "CodigoVariavel": "V02020000",
+      "Valor": "2",
+      "Condicao": "V02010000 != 2"
+    },
+    {
+      "CodigoVariavel": "V34021700",
+      "Valor": "4",
+      "Condicao": "(X_V34010100 != 203 && X_V34010100 != 214) || V05250100 >= 2"
+    }
+  ]
+}

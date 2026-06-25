@@ -1,0 +1,11 @@
+{
+  "AtividadesProducaoVegetal": [
+    {
+      "CodigoVariavel": "V33010600",
+      "Nome": "Silvicultura existe",
+      "NomeTabela": "quadro34",
+      "CodigoVariavelListaProdutos": "V39010100",
+      "NomeArquivoPrioridades": ""
+    }
+  ]
+}
